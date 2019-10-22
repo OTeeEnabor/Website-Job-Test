@@ -25,7 +25,7 @@ Grey: #666666
 
 /*Landing Page  Styling*/
 .landing-page{
-    background-image: url(../images/headerBackground.jpg);
+    background-image: url('/images/headerBackground.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 0px!important;
