@@ -28,7 +28,42 @@ Grey: #666666
     background-image: url(../images/headerBackground.jpg);
     background-position: center;
     background-size: cover;
-    height:100%;
+    border-radius: 0px!important;
+    height:40vw;
     
     
 }
+.dream-ul{
+    float:right;
+}
+
+/*Footer styling*/
+.dream-footer{
+    font-family: 'Roboto', sans-serif;
+}
+#footer-line{
+    width:100%;
+    height:3px;
+    background-color:var(--PinkLima);
+}
+#footer-brand{
+    color:var(--PinkLima);
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+}
+.footer-heading{
+    color:var(--DarkGrey);
+    font-family: 'Roboto', sans-serif; 
+    font-weight:bold;
+}
+.footer-list{
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.footer-list-item a{
+    color:var(--GreyLima);
+}
+#viewlink{
+    color:var(--PinkLima);
+}
+/*Footer styling ends here*/
