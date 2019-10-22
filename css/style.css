@@ -36,18 +36,40 @@ Grey: #666666
 .dream-ul{
     float:right;
 }
+/*=====about us section ===========*/
 
-/*image gallery section */
+/*====about section ends =======*/
+/*======image gallery section====== */
 .gallery-heading{
     font-family: 'Roboto', sans-serif;
     color:var(--DarkGreyLima);
     font-weight: bold;
 }
+.image-container{
+    position: relative;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
 .image-container img{
     width: 100%;
     border-radius: 5px;
+    filter: contrast(75%);
 }
-/* image gallery section ends */
+.image-heading{
+    
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight:bold;
+}
+.image-container:hover{
+    color:black;
+    font-weight: bolder;
+}
+/* ================image gallery section ends========= */
 
 /*Footer styling*/
 .dream-footer{
