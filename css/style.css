@@ -37,13 +37,17 @@ Grey: #666666
     float:right;
 }
 /*=====about us section ===========*/
-
+.partner-container img{
+    width:100%;
+    border-radius: 50%;
+}
 /*====about section ends =======*/
 /*======image gallery section====== */
 .gallery-heading{
     font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color:var(--DarkGreyLima);
-    font-weight: bold;
+    font-weight: bolder;
 }
 .image-container{
     position: relative;
