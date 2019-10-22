@@ -29,12 +29,31 @@ Grey: #666666
     background-position: center;
     background-size: cover;
     border-radius: 0px!important;
-    height:40vw;
+    height:50vw;
     
     
 }
 .dream-ul{
     float:right;
+}
+.main-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    color: whitesmoke;
+}
+.landing-text{
+    font-family: 'Montserrat', sans-serif;
+    
+    color:whitesmoke;
+}
+.landing-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    border-color: var(--PinkLima);
+    border-width: 2px;
+    border-radius:20px;
+    background-color: var(--PinkLima);
+    color: white;
 }
 /*=====about us section ===========*/
 .partner-image-parent{
@@ -92,6 +111,7 @@ background-color: #667DF3;
     font-family: 'Montserrat', sans-serif;
     border-color: var(--PinkLima);
     border-width: 2px;
+    border-radius:20px;
     color: var(--PinkLima);
 }
 /*====about section ends =======*/
