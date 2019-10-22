@@ -64,6 +64,36 @@ Grey: #666666
 #svgp1{
     background-color: var(--PinkLima);
 }
+#svgp2{
+    background-color:#18D4CA;
+}
+#svgp3{
+    background-color: #FFA710;
+}
+#svgp4{
+background-color: #667DF3;
+}
+.partner-name{
+    font-family: 'Montserrat', sans-serif;
+    color:var(--DarkGreyLima);
+    font-weight:bold;
+}
+.partner-bio{
+    color: var(--GreyLima);
+    font-family: 'Montserrat', sans-serif;
+}
+.partner-btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.partner-btn{
+    font-family: 'Montserrat', sans-serif;
+    border-color: var(--PinkLima);
+    border-width: 2px;
+    color: var(--PinkLima);
+}
 /*====about section ends =======*/
 /*======image gallery section====== */
 .gallery-heading{
