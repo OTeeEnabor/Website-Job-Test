@@ -19,7 +19,7 @@ Grey: #666666
     --GreenLima: #18D4CA;
     --OrangeLima: #FFA710;
     --PurpleLima: #667DF3;
-    --DarkGrey: #444444;
+    --DarkGreyLima: #444444;
     --GreyLima: #666666;  
 }
 
@@ -36,6 +36,18 @@ Grey: #666666
 .dream-ul{
     float:right;
 }
+
+/*image gallery section */
+.gallery-heading{
+    font-family: 'Roboto', sans-serif;
+    color:var(--DarkGreyLima);
+    font-weight: bold;
+}
+.image-container img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* image gallery section ends */
 
 /*Footer styling*/
 .dream-footer{
