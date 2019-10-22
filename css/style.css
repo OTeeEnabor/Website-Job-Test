@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/*font-family: 'Montserrat', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/*font-family: 'Roboto', sans-serif;
+*/
+
+/*Pink: #FF4E50
+Green: #18D4CA
+Orange: #FFA710
+Purple: #667DF3
+Dark Grey (Headings): #444444
+Grey: #666666
+*/
+:root{
+    --PinkLima: #FF4E50;
+    --GreenLima: #18D4CA;
+    --OrangeLima: #FFA710;
+    --PurpleLima: #667DF3;
+    --DarkGrey: #444444;
+    --GreyLima: #666666;  
+}
+
+/*Landing Page  Styling*/
+.landing-page{
+    background-image: url(../images/headerBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    
+    
+}
