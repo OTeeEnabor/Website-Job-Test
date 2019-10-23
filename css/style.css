@@ -28,8 +28,10 @@ Grey: #666666
     background-image: url('/images/headerBackground.jpg');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 0px!important;
-    height:50vw;
+    height:100vh;
+    min-height: 400px;
     
     
 }
