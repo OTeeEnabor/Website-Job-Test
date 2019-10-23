@@ -36,7 +36,8 @@ Grey: #666666
     
 }
 .dream-ul{
-    float:right;
+    display: flex;
+    justify-content: end;
 }
 .main-heading{
     font-family: 'Montserrat', sans-serif;
