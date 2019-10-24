@@ -39,14 +39,53 @@ Grey: #666666
     display: flex;
     justify-content: end;
 }
+.nav-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    border-color: white;
+    border-width: 2px;
+    border-radius:20px;
+    color: white;
+}
+#navbarResponsive{
+    border-radius:20px;
+}
+.navbar-collapse{
+    border-radius:20px;
+
+}
+.nav-item{
+    
+    padding-right:2rem!important;
+    padding-inline-start: 10px;
+}
+.nav-item a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    color:whitesmoke!important;
+}
+.hide-sign-up{
+    display: none;
+}
+.ul-navbar{
+    background-color:#444444;
+    z-index: 99;
+}
 .main-heading{
     font-family: 'Montserrat', sans-serif;
     font-weight:bolder;
     color: whitesmoke;
+    font-weight: 900;
+}
+.landing-text-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 .landing-text{
     font-family: 'Montserrat', sans-serif;
-    
     color:whitesmoke;
 }
 .landing-btn{
