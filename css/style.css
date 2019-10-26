@@ -235,6 +235,7 @@ background-color: #667DF3;
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: var(--PinkLima); /* Set a background color */
+    opacity: 0.6;
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
